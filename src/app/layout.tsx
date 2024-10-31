@@ -33,8 +33,9 @@ export default function RootLayout({
     <SidebarLayout
       navbar={<CNavbar/>}
       sidebar={<CSidebar/>}
-    />
-    {children}
+    >
+      {children}
+    </SidebarLayout>
     </body>
     </html>
   );
